@@ -8,7 +8,7 @@ void brainfuck(char *command_pointer, char *input) {
   char data[DATASIZE] = {0};
   char *dp;
 
-  dp = =&data[DATASIZE/2];
+  dp = &data[DATASIZE/2];
   
   while (command = *command_pointer++)
     switch (command) {
